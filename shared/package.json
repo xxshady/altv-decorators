@@ -1,0 +1,20 @@
+{
+  "name": "@xshady/altv-decorators-shared",
+  "version": "0.0.1",
+  "description": "typescript decorators for alt:V",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xshady",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@altv/types-shared": "^1.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}

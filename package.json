@@ -1,0 +1,27 @@
+{
+  "name": "altv-decorators",
+  "version": "0.0.1",
+  "description": "typescript decorators for alt:V",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xshady",
+  "license": "ISC",
+  "devDependencies": {},
+  "peerDependencies": {
+    "@altv/types-shared": "*",
+    "@altv/types-client": "*",
+    "@altv/types-server": "*"
+  },
+  "dependencies": {
+    "@altv/types-client": "^1.7.5",
+    "@altv/types-server": "^1.9.5",
+    "@altv/types-shared": "^1.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
