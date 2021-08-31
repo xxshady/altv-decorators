@@ -1,20 +1,20 @@
 {
-  "name": "@xshady/altv-decorators-server",
-  "version": "2.0.6",
-  "description": "typescript decorators for alt:V",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "altv-xdecorators-server",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
   "author": "xshady",
-  "license": "ISC",
-  "devDependencies": {},
+  "scripts": {
+    "publish": "tsc && yarn publish"
+  },
   "dependencies": {
-    "@altv/types-server": "^1.9.8",
-    "@altv/types-shared": "^1.0.2",
-    "@xshady/altv-decorators-shared": "^2.0.3",
+    "altv-xdecorators-shared": "^2.0.3",
     "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@altv/types-server": "^1.9.8",
+    "@altv/types-shared": "^1.0.2"
   },
   "files": [
     "dist/**/*"

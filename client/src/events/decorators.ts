@@ -1,5 +1,5 @@
 import * as alt from "alt-client"
-import { defineTypedEventDecorator } from "@xshady/altv-decorators-shared"
+import { defineTypedEventDecorator } from "altv-xdecorators-shared"
 
 export const onTyped = defineTypedEventDecorator("onTyped", (originalMethod, eventName) => {
   alt.on(eventName, originalMethod)

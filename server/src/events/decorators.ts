@@ -1,7 +1,7 @@
 import * as alt from "alt-server"
-import { defineTypedEventDecorator } from "@xshady/altv-decorators-shared"
+import { defineTypedEventDecorator } from "altv-xdecorators-shared"
 import type { AddPlayerParamToIEvents } from "./types"
-import type { RegisterEventHandler } from "@xshady/altv-decorators-shared/dist/events/types"
+import type { RegisterEventHandler } from "altv-xdecorators-shared/dist/events/types"
 
 export const onTyped = defineTypedEventDecorator("onTyped", (originalMethod, eventName) => {
   alt.on(eventName, originalMethod)
