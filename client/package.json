@@ -10,7 +10,7 @@
     "publish": "tsc && yarn publish"
   },
   "dependencies": {
-    "altv-xdecorators-shared": "^2.0.3",
+    "altv-xdecorators-shared": "^1.0.0",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
