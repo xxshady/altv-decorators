@@ -13,7 +13,7 @@
   "dependencies": {
     "@altv/types-client": "^1.7.7",
     "@altv/types-shared": "^1.0.2",
-    "@xshady/altv-decorators-shared": "2.0.0",
+    "@xshady/altv-decorators-shared": "2.0.1",
     "reflect-metadata": "^0.1.13"
   },
   "files": [
