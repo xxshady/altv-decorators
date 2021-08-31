@@ -1,2 +1,3 @@
 import "reflect-metadata"
-export * as events from "./events"
+export * from './base-method-decorator'
+export * from './events'

@@ -1,19 +1,10 @@
-import { ServerEventOn, ServerEventOnClient } from "./server-event-model"
-import { EventDecoratorManager } from "@xshady/altv-decorators-shared/dist/events"
-import type { EventHandler } from "@xshady/altv-decorators-shared/dist/events"
-import type { IServerEventReturnAny } from "./types"
+import * as alt from "alt-server"
+import { defineTypedEventDecorator } from "@xshady/altv-decorators-shared"
 
-export const onAlt = EventDecoratorManager.defineDecorator<IServerEventReturnAny>(
-  "onAlt",
-  ServerEventOn,
-)
+export const onTyped = defineTypedEventDecorator("test", (originalMethod, eventName) => {
+  alt.on(eventName, originalMethod)
+})
 
-export const onClientTyped = EventDecoratorManager.defineGenericDecorator(
-  "onClientTyped",
-  ServerEventOnClient,
-)
-
-export const onClient = EventDecoratorManager.defineDecorator<Record<string, EventHandler>>(
-  "onClient",
-  ServerEventOnClient,
-)
+export const onClientTyped = defineTypedEventDecorator("test", (originalMethod, eventName) => {
+  alt.onClient(eventName, originalMethod)
+})
