@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@altv/types-shared/-/types-shared-1.0.2.tgz#c9b3b4964bb8c690883a243f8fbefaeb574b520f"
   integrity sha512-yxJh6u4jFjyrZsFOe2Fx7352e8WO+k/YxXHcSktBc3Zq5suIDhaMIk6dy7K+pYHKDlPa0DNzPnnjcq3QUYK6Qw==
 
-"@xshady/altv-decorators-shared@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@xshady/altv-decorators-shared/-/altv-decorators-shared-2.0.1.tgz#68e0a3e2c3a61f9eb69b977fb96fe88a97a768c2"
-  integrity sha512-aeX/x6TASENjzVuvLwFIW8lV0V78HYoY+TZUNWOK5flh17f0eFPyq8d47NoIcwew36Er8bXbpznWauGv2Eg60w==
+"@xshady/altv-decorators-shared@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@xshady/altv-decorators-shared/-/altv-decorators-shared-2.0.3.tgz#4a1d9230d1fd6677e26b85edf06503a281e142a8"
+  integrity sha512-p/i+yu6gIGepejVOnYdHssvQqwhipOaZ6TuJzfHoqsK5swgt/gj4PdK05sxENqBDgUJMolaYgPg3qVQtqXo6dQ==
   dependencies:
     "@altv/types-shared" "^1.0.1"
     reflect-metadata "^0.1.13"
