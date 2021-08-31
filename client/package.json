@@ -1,6 +1,6 @@
 {
   "name": "@xshady/altv-decorators-client",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "typescript decorators for alt:V",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
