@@ -1,6 +1,6 @@
 {
   "name": "@xshady/altv-decorators-shared",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "typescript decorators for alt:V",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,7 +12,8 @@
   "devDependencies": {},
   "dependencies": {
     "@altv/types-shared": "^1.0.1",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.6.0"
   },
   "files": [
     "dist/**/*"
