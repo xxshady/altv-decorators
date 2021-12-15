@@ -1,6 +1,6 @@
 {
-  "name": "altv-xdecorators-client",
-  "version": "1.0.0",
+  "name": "altv-xxdecorators-client",
+  "version": "1.0.2",
   "description": "alt:V client-side class decorators with auto instantiation of the class using tsyringe",
   "main": "dist/index.js",
   "repository": "https://github.com/xxshady/altv-xdecorators",
@@ -10,7 +10,7 @@
     "publish": "tsc && yarn publish"
   },
   "dependencies": {
-    "altv-xdecorators-shared": "^1.0.0",
+    "altv-xxdecorators-shared": "^1.0.2",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {

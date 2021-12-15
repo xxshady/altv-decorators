@@ -1,6 +1,7 @@
 {
-  "name": "altv-xdecorators-server",
-  "version": "1.0.2",
+  "name": "altv-xxdecorators-server",
+  "version": "1.0.5",
+  "description": "alt:V server-side class decorators with auto instantiation of the class using tsyringe",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
@@ -9,7 +10,7 @@
     "publish": "tsc && yarn publish"
   },
   "dependencies": {
-    "altv-xdecorators-shared": "^1.0.0",
+    "altv-xxdecorators-shared": "^1.0.2",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {

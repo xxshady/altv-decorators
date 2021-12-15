@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@altv/types-shared/-/types-shared-1.0.2.tgz#c9b3b4964bb8c690883a243f8fbefaeb574b520f"
   integrity sha512-yxJh6u4jFjyrZsFOe2Fx7352e8WO+k/YxXHcSktBc3Zq5suIDhaMIk6dy7K+pYHKDlPa0DNzPnnjcq3QUYK6Qw==
 
-altv-xdecorators-shared@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/altv-xdecorators-shared/-/altv-xdecorators-shared-1.0.0.tgz#78cae7b99e1bfaea92cda3c6835a67cf2b26660a"
-  integrity sha512-WjJnQMlg+vCJ4V3LlejFX8sIVxE7OlN9Rf2NiEDgxXsG8WwiQQ3wAnQ3phggu87aZME5lDkqID5p9HO0c/c2vw==
+altv-xxdecorators-shared@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/altv-xxdecorators-shared/-/altv-xxdecorators-shared-1.0.2.tgz#5a7821faa04594d66846155c5c7250632175ca7d"
+  integrity sha512-8aq9X2eMnlJvMDvZYYLAHDvUL3Hlk5vdhoY+88RStLXhzwhu4SpH9uTl6LwA0ZgZstNxkc5dLfKy+QX8L6HNHw==
   dependencies:
     reflect-metadata "^0.1.13"
     tsyringe "^4.6.0"
