@@ -7,6 +7,8 @@
   "license": "MIT",
   "author": "xshady",
   "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
     "publish": "tsc && yarn publish"
   },
   "dependencies": {
