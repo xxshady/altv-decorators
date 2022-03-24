@@ -1,6 +1,6 @@
 {
   "name": "altv-xxdecorators-shared",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "alt:V class decorators with auto instantiation of the class using tsyringe",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
