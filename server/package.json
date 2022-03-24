@@ -1,6 +1,6 @@
 {
   "name": "altv-xxdecorators-server",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "alt:V server-side class decorators with auto instantiation of the class using tsyringe",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
