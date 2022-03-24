@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@altv/types-client@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@altv/types-client/-/types-client-2.1.1.tgz#37cf4d94c48fce5ec92e93737eee1bfe6117d056"
+  integrity sha512-nyvcDMKPsVkspHI92NEoNcGUzvJxq1O4k1yphLyRKN2GEuWHL1/OzlKZBlAVylM4KJxpieiic2sNujCry4pO6g==
+
+"@altv/types-server@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@altv/types-server/-/types-server-2.2.8.tgz#373adbe21c27870c6d2ba22dffad42268f0962bc"
+  integrity sha512-CrstiTWaGyPHFxcA+KHT9PHn+02T0Cj0NR2x5dbD3tJdoW4JxqmWlu2rF+r4PRdIkNkKNi4E0cnxZTjViPsWQg==
+
+"@altv/types-shared@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@altv/types-shared/-/types-shared-1.2.1.tgz#d4a6243111aab36164952d568517fb430d713f5c"
+  integrity sha512-C8avN03xOxzZmwCfeeSOI/4E0uOYOhjc1wozY35OYU/4F5YYjeeWIh5d3zHGj6u5GzLgM6Ha3+vsn5922k61QA==
+
 "@babel/code-frame@^7.0.0":
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.16.0.tgz#0dfc80309beec8411e65e706461c408b0bb9b431"
@@ -3609,6 +3624,11 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+reflect-metadata@^0.1.13:
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
+  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
+
 request@^2.88.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
@@ -4130,10 +4150,17 @@ trim-newlines@^3.0.0:
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.1.tgz#260a5d962d8b752425b32f3a7db0dcacd176c144"
   integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
 
-tslib@^1.9.0:
+tslib@^1.9.0, tslib@^1.9.3:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
+tsyringe@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/tsyringe/-/tsyringe-4.6.0.tgz#14915d3d7f0db35e1cf7269bdbf7c440713c8d07"
+  integrity sha512-BMQAZamSfEmIQzH8WJeRu1yZGQbPSDuI9g+yEiKZFIcO46GPZuMOC2d0b52cVBdw1d++06JnDSIIZvEnogMdAw==
+  dependencies:
+    tslib "^1.9.3"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

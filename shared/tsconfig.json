@@ -2,6 +2,6 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "typeRoots": ["./node_modules/@altv"],
+    "typeRoots": ["../node_modules/@altv"],
   }
 }
