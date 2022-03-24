@@ -1,4 +1,5 @@
-import { bindedMethods } from "./bindedMethods"
+import { assertNormalMethodDecorator, assertStaticMethodDecorator } from "./asserts"
+import { bindedMethods } from "./binded-methods"
 import { getTargetInstance } from "./helpers"
 import type { ConstructorType, OriginalMethod, OriginalMethodHandler } from "./types"
 
@@ -8,11 +9,12 @@ export const defineMethodDecorator = <DecoratorArgs extends (...args: any[]) => 
 ) =>
     (...args: Parameters<DecoratorArgs>) =>
       (target: object, property: string, descriptor: TypedPropertyDescriptor<MethodType>): void => {
-        const originalMethod = descriptor.value
         property = property + ""
-
+        assertNormalMethodDecorator(decoratorName, target, property)
+        
         const constructor = target.constructor as ConstructorType<any>
-
+        
+        const originalMethod = descriptor.value
         if (!(originalMethod instanceof Function)) {
           throw new Error(
           `[@${decoratorName}] ` +
@@ -36,9 +38,10 @@ export const defineStaticMethodDecorator = <DecoratorArgs extends (...args: any[
 ) =>
     (...args: Parameters<DecoratorArgs>) =>
       (target: object, property: string, descriptor: TypedPropertyDescriptor<MethodType>): void => {
-        const originalMethod = descriptor.value
         property = property + ""
-
+        assertStaticMethodDecorator(decoratorName, target, property)
+        
+        const originalMethod = descriptor.value
         if (!(originalMethod instanceof Function)) {
           throw new Error(
           `[@${decoratorName}] ` +
@@ -55,9 +58,10 @@ export const defineDestroyBindedMethodsMethodDecorator = <DecoratorArgs extends 
 ) =>
     (...decoratorArgs: Parameters<DecoratorArgs>) =>
       (target: object, property: string, descriptor: PropertyDescriptor): void => {
-        const originalMethod = descriptor.value
         property = property + ""
-
+        assertNormalMethodDecorator(decoratorName, target, property)
+        
+        const originalMethod = descriptor.value
         if (!(originalMethod instanceof Function)) {
           throw new Error(
           `[@${decoratorName}] ` +
